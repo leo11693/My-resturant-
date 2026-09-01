@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tadim Gemüse Kebap - Hannover</title>
+  <style>
+    :root {
+      --primary: #1b3b22;
+      --accent: #27ae60;
+      --bg: #f4f6f7;
+      --card: #ffffff;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: var(--bg);
+      color: #333;
+    }
+    header {
+      background: var(--primary);
+      color: white;
+      text-align: center;
+      padding: 2.5rem 1rem;
+    }
+    header h1 { margin: 0; font-size: 2.2rem; letter-spacing: 1px; }
+    header p { margin-top: 0.5rem; color: #a3e635; font-weight: bold; }
+    main {
+      max-width: 700px;
+      margin: 1.5rem auto;
+      padding: 0 1rem;
+    }
+    .btn-call {
+      display: block;
+      background: var(--accent);
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1rem;
+      margin-bottom: 1.5rem;
+    }
+    .info-box {
+      background: var(--card);
+      padding: 1.2rem 1.5rem;
+      border-radius: 8px;
+      margin-bottom: 2rem;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+    .info-box h3 { margin-top: 0; color: var(--primary); }
+    .hours-list {
+      list-style: none;
+      padding: 0;
+      margin: 0.5rem 0 0 0;
+    }
+    .hours-list li {
+      display: flex;
+      justify-content: space-between;
+      padding: 0.3rem 0;
+      border-bottom: 1px dashed #eee;
+    }
+    h2 { color: var(--primary); border-bottom: 2px solid var(--accent); padding-bottom: 0.3rem; }
+    .menu-item {
+      background: var(--card);
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+    .item-header {
+      display: flex;
+      justify-content: space-between;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+    .price { color: var(--accent); }
+    .description { margin: 0.5rem 0 0 0; color: #666; font-size: 0.95rem; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Tadim Gemüse Kebap</h1>
+    <p>Hannover • Kebab-Haus</p>
+  </header>
+
+  <main>
+    <!-- Telefon-Button direkt auf dem iPad klickbar -->
+    <a href="tel:+491634969157" class="btn-call">📞 Jetzt anrufen: 0163 4969157</a>
+
+    <section class="info-box">
+      <h3>📍 Adresse</h3>
+      <p>Engelbosteler Damm 106<br>30167 Hannover, Deutschland</p>
+
+      <h3>🕒 Öffnungszeiten</h3>
+      <ul class="hours-list">
+        <li><span>Mo – Do:</span> <span>10:00 – 01:00 Uhr</span></li>
+        <li><span>Fr – Sa:</span> <span>10:00 – 02:00 Uhr</span></li>
+        <li><span>Sonntag:</span> <span>10:00 – 01:00 Uhr</span></li>
+      </ul>
+    </section>
+
+    <h2>Speisekarte</h2>
+
+    <!-- Hier können Sie und Ihre Mitarbeiter Speisen und Preise anpassen -->
+    <div class="menu-item">
+      <div class="item-header">
+        <span>Tadim Gemüse Kebap</span>
+        <span class="price">7,50 €</span>
+      </div>
+      <p class="description">Mit frischem frittierten Gemüse, Schafskäse, Kräutern und Soße nach Wahl.</p>
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <span>Gemüse Dürüm</span>
+        <span class="price">8,00 €</span>
+      </div>
+      <p class="description">Frisch gebackenes Dürüm-Brot mit Grillgemüse, Salat und Haussoße.</p>
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <span>Vegetarischer Döner</span>
+        <span class="price">6,50 €</span>
+      </div>
+      <p class="description">Gefüllt mit frischem Salat, Grillgemüse, Feta-Käse und Zitrone.</p>
+    </div>
+
+  </main>
+
+</body>
+</html>
